@@ -1,5 +1,6 @@
 <?php
 namespace Df\Google;
+/** @method static Settings s() */
 class Settings extends \Df\Core\Settings {
 	/**
 	 * @return string
@@ -18,7 +19,4 @@ class Settings extends \Df\Core\Settings {
 	 * @return string
 	 */
 	protected function prefix() {return 'df_api/google/';}
-
-	/** @return self */
-	public static function s() {static $r; return $r ? $r : $r = df_o(__CLASS__);}
 }
