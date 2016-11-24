@@ -1,7 +1,7 @@
 <?php
 namespace Df\Google;
 /** @method static Settings s() */
-final class Settings extends \Df\Core\Settings {
+final class Settings extends \Df\Config\Settings {
 	/**
 	 * @return string
 	 */
@@ -15,9 +15,9 @@ final class Settings extends \Df\Core\Settings {
 
 	/**
 	 * @override
-	 * @see \Df\Core\Settings::prefix()
-	 * @used-by \Df\Core\Settings::v()
+	 * @see \Df\Config\Settings::prefix()
+	 * @used-by \Df\Config\Settings::v()
 	 * @return string
 	 */
-	protected function prefix() {return 'df_api/google/';}
+	protected function prefix() {return 'df_api/google';}
 }
