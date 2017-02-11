@@ -5,13 +5,13 @@ final class Settings extends \Df\Config\Settings {
 	/**
 	 * @return string
 	 */
-	public function clientId() {return $this->v('client_id');}
+	function clientId() {return $this->v('client_id');}
 
 	/**
 	 * 2015-11-27
 	 * @return string|null
 	 */
-	public function serverApiKey() {return $this->p('server_api_key');}
+	function serverApiKey() {return $this->p('server_api_key');}
 
 	/**
 	 * @override
