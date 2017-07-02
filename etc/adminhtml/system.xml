@@ -7,7 +7,6 @@
 		<section
 			id='df_api'
 			translate='label'
-			type='text'
 			showInDefault='1'
 			showInWebsite='1'
 			showInStore='1'
@@ -25,7 +24,6 @@
 			<group
 				id='google'
 				translate='label'
-				type='text'
 				sortOrder='120'
 				showInDefault='1'
 				showInWebsite='1'
