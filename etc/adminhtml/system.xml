@@ -32,7 +32,7 @@ So the `sortOrder` value is 1920. -->
 			<group
 				id='google'
 				showInDefault='1' showInStore='1' showInWebsite='1'
-				sortOrder='120'
+				sortOrder='715'
 				translate='label'
 			>
 			<label>Google</label>
