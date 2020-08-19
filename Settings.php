@@ -1,6 +1,6 @@
 <?php
 namespace Df\Google;
-// 2015-11-27
+# 2015-11-27
 /** @method static Settings s() */
 final class Settings extends \Df\Config\Settings {
 	/**
