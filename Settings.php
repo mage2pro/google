@@ -5,9 +5,8 @@ namespace Df\Google;
 final class Settings extends \Df\Config\Settings {
 	/**
 	 * 2015-11-27
-	 * @return string
 	 */
-	function clientId() {return $this->v('client_id');}
+	function clientId():string {return $this->v('client_id');}
 
 	/**
 	 * 2015-11-27
