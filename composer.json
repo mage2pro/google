@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/google"
-	,"version": "1.0.5"
+	,"version": "1.1.0"
 	,"description": "Google APIs."
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/mage2pro/google"
@@ -11,6 +11,6 @@
 		"homepage": "https://www.upwork.com/fl/mage2pro",
 		"role": "Developer"
 	}]
-	,"require": {"mage2pro/core": ">=2.4.19"}
+	,"require": {"mage2pro/core": ">=9.0.4"}
 	,"autoload": {"files": ["registration.php"], "psr-4": {"Df\\Google\\": ""}}
 }
