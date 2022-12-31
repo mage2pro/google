@@ -12,6 +12,7 @@ final class Settings extends \Df\Config\Settings {
 
 	/**
 	 * 2015-11-27
+	 * @used-by \Df\GoogleFont\Fonts::responseA()
 	 * @return string|null
 	 */
 	function serverApiKey() {return $this->p('server_api_key');}
