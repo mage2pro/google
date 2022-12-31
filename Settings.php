@@ -5,6 +5,7 @@ namespace Df\Google;
 final class Settings extends \Df\Config\Settings {
 	/**
 	 * 2015-11-27
+	 * @used-by \Dfe\GoogleBackendLogin\Block\Metadata::_construct()
 	 */
 	function clientId():string {return $this->v('client_id');}
 
