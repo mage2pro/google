@@ -1,5 +1,5 @@
 <?php
-namespace Df\Google;
+namespace Dfe\Google;
 # 2015-11-27
 /** @method static Settings s() */
 final class Settings extends \Df\Config\Settings {
@@ -12,7 +12,7 @@ final class Settings extends \Df\Config\Settings {
 
 	/**
 	 * 2015-11-27
-	 * @used-by \Df\GoogleFont\Fonts::responseA()
+	 * @used-by \Dfe\GoogleFont\Fonts::responseA()
 	 */
 	function serverApiKey():string {return (string)$this->p('server_api_key');}
 
